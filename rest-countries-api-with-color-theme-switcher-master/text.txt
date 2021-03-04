@@ -1,0 +1,11 @@
+<div class="country">
+            <div class="top">
+            <img class="flag" src="https://restcountries.eu/data/col.svg" alt="">
+            </div>
+            <div class="bottom">
+            <h1 class="name">Colombia</h1>
+            <p class="population size"><strong>Population:</strong>000000000000</p>
+            <p class="country-region size"><strong>Region:</strong>Asia</p>
+            <p class="Capital size"><strong>Population:</strong>Pakistab</p>
+            </div>
+        </div>

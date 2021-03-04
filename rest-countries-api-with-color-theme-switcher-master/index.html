@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+<body>
+    <header class="padding">
+        <h1 class="header-h1">
+            Where in the world?
+        </h1>
+        <div class="dark-toggle-btn">
+            <i class="far fa-moon light"></i>
+            <p class="text-dark">
+                Dark Mode
+            </p>
+        </div>
+    </header>
+    <section class="input padding">
+        <div class="input-div">
+            <input id="input" class="input-search" type="text" placeholder="Search for a country...">
+        </div>
+        <div class="filter">
+            <div class="menu">
+                <p class="menu-text">
+                    Filter by Region
+                </p>
+                <i class="down fas fa-chevron-down"></i>
+            </div>
+            <div class="regions">
+                <ul class="ul">
+                    <li class="region">All</li>
+                    <li class="region">Africa</li>
+                    <li class="region">America</li>
+                    <li class="region">Asia</li>
+                    <li class="region">Europe</li>
+                    <li class="region">Oceania</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="section-countries" class="countries-section padding">
+        Countries Loading
+    </section>
+    <section class="modal">
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
