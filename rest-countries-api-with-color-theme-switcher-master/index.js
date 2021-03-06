@@ -39,32 +39,32 @@ function displayCountries(countries) {
         <div class="right">
             <div class="right-left">
                 <h1 class="names h1-modal">${country.name}</h1>
-                <p class="text-modal"><strong class="size">Native Name: </strong>${
+                <p class="text-modal"><strong class="underline size">Native Name: </strong>${
                   country.nativeName
                 }</p>
-                <p class="text-modal"><strong class="size">Population: </strong>${
+                <p class="text-modal"><strong class="underline size">Population: </strong>${
                   country.population
                 }</p>
-                <p class="text-modal"><strong class="size">Region: </strong>${
+                <p class="text-modal"><strong class="underline size">Region: </strong>${
                   country.region
                 }</p>
-                <p class="text-modal"><strong class="size">Sub Region: </strong>${
+                <p class="text-modal"><strong class="underline size">Sub Region: </strong>${
                   country.subregion
                 }</p>
-                <p class="text-modal"><strong class="size">Capital: </strong>${
+                <p class="text-modal"><strong class="underline size">Capital: </strong>${
                   country.capital
                 }</p>
             </div>
             <div class="right-right">
-                <p class="text-modal"><strong class="size">Top Level Domain: </strong>${
+                <p class="text-modal"><strong class="underline size">Top Level Domain: </strong>${
                   country.topLevelDomain[0]
                 }</p>
-                <p class="text-modal"><strong class="size">Currencies: </strong>${country.currencies.map(
+                <p class="text-modal"><strong class="underline size">Currencies: </strong>${country.currencies.map(
                   (currency) => {
                     return currency.code;
                   }
                 )}</p>
-                <p class="text-modal"><strong class="size">Languages: </strong>${country.languages.map(
+                <p class="text-modal"><strong class="underline size">Languages: </strong>${country.languages.map(
                   (language) => {
                     return language.name;
                   }
