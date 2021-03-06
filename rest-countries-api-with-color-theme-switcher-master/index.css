@@ -33,6 +33,7 @@ header {
 .text-dark {
   font-size: 17px;
   font-weight: 800;
+  margin: 0%;
 }
 /*Input------------------------------------------*/
 .input-search {
@@ -60,6 +61,9 @@ header {
   box-shadow: 2px 0px 15px -1px hsl(0deg 0% 52%);
   align-items: center;
   cursor: pointer;
+}
+.menu-text {
+  margin: 0%;
 }
 .ul {
   list-style: none;
@@ -126,6 +130,7 @@ header {
 }
 .bottom {
   padding-left: 30px;
+  padding: 20px;
 }
 /*Dark------------------------------------------*/
 .dark-body {
