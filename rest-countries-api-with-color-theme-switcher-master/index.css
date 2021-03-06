@@ -124,6 +124,8 @@ header {
 }
 .names {
   font-size: 30px;
+  text-decoration: underline;
+  margin-bottom: 20px;
 }
 .size {
   font-size: 18px;
