@@ -231,3 +231,7 @@ header {
 .fa-long-arrow-alt-left {
   margin-right: 10px;
 }
+.underline {
+  text-decoration: underline;
+  font-weight: 600;
+}
